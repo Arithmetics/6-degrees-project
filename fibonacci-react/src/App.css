@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.App {
+  max-width: 650px;
+  padding: 20px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  
+}
+
+body {
+  background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+ min-height: 100vh;
+}
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+form input{
+  width: 100px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 24px;
+  background-color: #e2e2e2;
+  border: none;
+}
+
+.top {
+  text-align: left;
+}
+
+
+
+form label {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.fib {
+  width: 100px;
+  position: absolute;
+  right: 150px;
+}
+
+.submit {
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  display: block;
+  margin: 40px auto;
+  transition: all .3s ease-in-out;
+  border: none;
+  
+}
+
+.submit:hover {
+  background-color: #c1bfbf;
+}
+
+.submit:focus {
+  outline:none;
+  transform: translateY(5px);
+
+}
+
+.terms {
+  width: 600px;
+  background-color: rgba(0, 0, 0, 0.1);
+  min-height: 200px;
+  border-radius: 10px;
+  padding: 20px;
+  word-wrap: break-word; 
+  font-size: 20px;
+}
+
+
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
